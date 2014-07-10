@@ -78,6 +78,6 @@ echo "workon $VIRTUALENV_NAME" >> /home/vagrant/.bashrc
 # Remove the annoying MOTDs
 rm /etc/update-motd.d/*
 
-echo "------------------------------------------"
-echo "|    $PROJECT_NAME Bootstrap Complete    |"
-echo "------------------------------------------"
+echo "=========================================="
+echo "     $PROJECT_NAME Bootstrap Complete"
+echo "=========================================="
