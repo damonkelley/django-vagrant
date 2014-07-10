@@ -7,8 +7,6 @@ PROJECT_NAME = File.basename(Dir.getwd)
 
 VAGRANT_DIR = File.dirname(File.readlink(__FILE__))
 VAGRANT_BASENAME = File.basename(VAGRANT_DIR)
-puts VAGRANT_BASENAME
-# Dir.chdir(VAGRANT_DIR)
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # All Vagrant configuration is done here. The most common configuration
