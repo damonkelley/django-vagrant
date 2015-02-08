@@ -79,5 +79,5 @@ echo "workon $VIRTUALENV_NAME" >> /home/vagrant/.bashrc
 rm /etc/update-motd.d/*
 
 echo "=========================================="
-echo "     $PROJECT_NAME Bootstrap Complete"
+echo "     Bootstrap Complete: $PROJECT_NAME"
 echo "=========================================="
